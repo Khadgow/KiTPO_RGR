@@ -1,0 +1,68 @@
+.durationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.durationContainer > div {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
+.checkbox {
+  width: 25px;
+  height: 25px;
+  box-shadow: inset 0px 0px 5px rgb(230, 230, 230);
+}
+
+.textInput {
+  width: 100%;
+  padding: 0;
+  padding: 5px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 5px rgb(230, 230, 230);
+}
+
+.container {
+  width: 100%;
+}
+
+.dropButton {
+  float: right;
+  border: solid 1px #0035f7;
+  background-color: white;
+  color: #0035f7;
+  transition: all 0.4s;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dropButton:hover {
+  border-color: #0025ab;
+  color: #0025ab;
+}
+
+.addButton {
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  background-color: #0035f7;
+  color: white;
+  transition: background-color 0.4s;
+}
+.addButton:hover {
+  background-color: #0025ab;
+}
+
+.addButton:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}

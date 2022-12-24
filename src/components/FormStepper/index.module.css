@@ -1,0 +1,38 @@
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonsContainer button {
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.nextButton {
+  border: none;
+  background-color: #0035f7;
+  color: white;
+  transition: background-color 0.4s;
+}
+.nextButton:hover {
+  background-color: #0025ab;
+}
+
+.backButton {
+  border: solid 1px #0035f7;
+  background-color: white;
+  color: #0035f7;
+  transition: all 0.4s;
+}
+
+.backButton:hover {
+  border-color: #0025ab;
+  color: #0025ab;
+}
+.backButton:disabled {
+  border-color: grey;
+  color: grey;
+  cursor: not-allowed;
+}

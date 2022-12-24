@@ -1,0 +1,14 @@
+.postsPageContainer {
+    display: flex;
+    margin: auto;
+}
+.postsPageArrow {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.postsPageCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}

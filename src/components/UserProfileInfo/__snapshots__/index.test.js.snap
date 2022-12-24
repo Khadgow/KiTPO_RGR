@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileComponent Snapshot test 1`] = `
+<DocumentFragment>
+  <p>
+    formFields.name: name
+  </p>
+  <p>
+    formFields.lastName: last name
+  </p>
+  <p>
+    formFields.email: some@mail.com
+  </p>
+  <p>
+    formFields.role: user
+  </p>
+  <p>
+    formFields.birthdate: 2000-01-01
+  </p>
+</DocumentFragment>
+`;

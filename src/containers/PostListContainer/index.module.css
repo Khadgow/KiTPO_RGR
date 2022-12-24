@@ -1,0 +1,9 @@
+.cardList {
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}

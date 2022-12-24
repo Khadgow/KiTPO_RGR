@@ -1,0 +1,77 @@
+{
+  "cardList": {
+    "pageTitle": "Card list",
+    "usersPage": "Users list",
+    "profilePage": "Profile",
+    "multiStepForm": "Multi step form"
+  },
+  "formFields": {
+    "pageTitle": "Login",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "lastName": "Last name",
+    "birthdate": "Birthdate",
+    "title": "Title",
+    "content": "Content",
+    "role": "Role",
+    "avatar": "Avatar",
+    "schoolName": "School Name",
+    "startYear": "Start year",
+    "endYear": "End year",
+    "now": "Now",
+    "drop": "Drop",
+    "add": "Add",
+    "companyName": "Companyn name",
+    "profile": "Profile"
+  },
+  "errors": {
+    "minError": "Length must be more than 4 symbols",
+    "maxError": "Length must be less than 255 symbols",
+    "required": "This field is required",
+    "email": "Invalid email",
+    "birthdate": "Age must be over 3 years old",
+    "educationsOverlapping": "Years of study cannot overlap",
+    "experiencesOverlappingTwice": "You can't work in more than two place at the same time",
+    "notAllLanguages": "You must slect all languages"
+  },
+  "createCard": {
+    "pageTitle": "New card"
+  },
+  "cardInfo": {
+    "pageTitle": "Card info"
+  },
+  "loginPage": {
+    "pageTitle": "Login",
+    "submitButton": "login",
+    "redirectText": "Don't have account? Register"
+  },
+  "registerPage": {
+    "pageTitle": "Registration",
+    "submitButton": "Register",
+    "redirectText": "Already have account? Login"
+  },
+  "cardForm": {
+    "submitButton": "Save",
+    "deleteButton": "Delete"
+  },
+  "profilePage": {
+    "pageTitle": "Profile",
+    "updateButton": "Update"
+  },
+  "updateProfile": {
+    "pageTitle": "Update profile",
+    "submitButton": "Save"
+  },
+  "multiStepForm": {
+    "contactInformation": "Contact information",
+    "education": "Education",
+    "experiences": "Experiences",
+    "languages": "Languages"
+  },
+  "formStepper": {
+    "back": "Back",
+    "nextStep": "Next step",
+    "submit": "Submit"
+  }
+}

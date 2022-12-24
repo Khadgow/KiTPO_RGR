@@ -1,0 +1,38 @@
+.cardItemBottom {
+    margin-top: auto;
+    justify-content: space-between;
+    display: flex;
+}
+.cardItem .cardItemBottom svg {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.iconButton {
+    background: none;
+    border: none;
+    display: flex;
+}
+.likeCount {
+    margin-right: 10px;
+}
+
+.cardItem {
+    text-align: center;
+    padding: 5px;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.notSynchronizedIconContainer {
+    justify-content: flex-end;
+    display: flex;
+}
+.notSynchronizedIconContainer svg {
+    height: 50px;
+    width: 50px;
+}

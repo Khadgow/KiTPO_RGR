@@ -1,0 +1,16 @@
+.submitButton {
+    margin: 10px;
+}
+.pageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}

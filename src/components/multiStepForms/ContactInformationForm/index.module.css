@@ -1,0 +1,64 @@
+.namesContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.namesContainer div {
+  margin: 10px;
+  width: 100%;
+}
+
+.textInput {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 5px rgb(230, 230, 230);
+}
+
+.birthdateContainer {
+  width: 100%;
+}
+
+.imageUpload {
+  display: none;
+}
+
+.imageBox {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 25px;
+  fill: #d1d1d1;
+  box-shadow: inset 0px 0px 5px rgb(230, 230, 230);
+  cursor: pointer;
+  position: relative;
+}
+
+.imageBox:hover > .addIcon {
+  opacity: 0.8;
+}
+
+.addIcon {
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  fill: #d1d1d1;
+  transition: opacity 0.4s;
+  opacity: 0;
+}
+
+.avatar {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  pointer-events: none;
+  object-fit: contain;
+}

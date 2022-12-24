@@ -1,0 +1,19 @@
+.addCardButton {
+    display: flex;
+    align-items: center;
+    border: black 1px dashed;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.addCardButton svg {
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.addCardButton svg:hover {
+    fill: #5e5e5e;
+}
